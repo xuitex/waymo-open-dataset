@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-py3
+FROM tensorflow/tensorflow:2.2.3-py3
 
 RUN apt-get update && apt-get install -y \
   git build-essential wget vim findutils curl \
