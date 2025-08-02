@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.3.0-gpu
+FROM tensorflow/tensorflow:2.20.0rc0-gpu
 
 ENV PYTHONPATH=/model/
 
